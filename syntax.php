@@ -178,12 +178,12 @@ class syntax_plugin_datedifference extends DokuWiki_Syntax_Plugin {
 		if($days > 1) 
 			$result .= "$days days ";
 		elseif($days == 1)
-			$result .= "$days day";
+			$result .= "$days day ";
 
 		if($hours > 1) 
 			$result .= "$hours hours ";
 		elseif($hours == 1)
-			$result .= "$hours hour";
+			$result .= "$hours hour ";
 
 		if($minutes > 1) 
 			$result .= "$minutes minutes ";
