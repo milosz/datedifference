@@ -1,7 +1,7 @@
 base    datedifference
 author  Milosz Galazka
 email   milosz@sleeplessbeastie.eu
-date    2018-03-27
+date    2018-04-24
 name    datedifference plugin
 desc    Display date difference
 url     https://www.dokuwiki.org/plugin:datedifference
