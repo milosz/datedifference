@@ -173,17 +173,17 @@ class syntax_plugin_datedifference extends DokuWiki_Syntax_Plugin {
 		if($months > 1) 
 			$result .= "$months months ";
 		elseif($months == 1)
-			$result .= "$months months ";
+			$result .= "$months month ";
 
 		if($days > 1) 
 			$result .= "$days days ";
 		elseif($days == 1)
-			$result .= "$days year ";
+			$result .= "$days day";
 
 		if($hours > 1) 
 			$result .= "$hours hours ";
 		elseif($hours == 1)
-			$result .= "$hours year ";
+			$result .= "$hours hour";
 
 		if($minutes > 1) 
 			$result .= "$minutes minutes ";
